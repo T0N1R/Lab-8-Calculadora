@@ -1,0 +1,60 @@
+.gridParent{
+    width: 360px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: medium;
+    text-align: right;
+}
+
+.clear{
+    height: 80px;
+    width: 362px;
+    background-color: #444;
+    font-size: 80px;
+    color: aliceblue;
+}
+
+.teclado{
+    background-color: red;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+    grid-gap: 1px;
+    background-color: #444;
+    color: #444;
+
+}
+  
+.box {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.box:hover {
+    opacity: 0.5;
+    background-color: rgb(83, 83, 83);
+  }
+
+.box:active {
+    opacity: 1;
+    background-color: #444;
+}
+
+.clear:hover {
+    opacity: 0.9;
+    background-color:#444;
+  }
+
+
+.clear:active {
+    opacity: 1;
+    background-color: #444;
+}
+
+
